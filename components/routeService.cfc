@@ -1,10 +1,4 @@
 <cfcomponent output="false" hint="Route component.">
-    <cfset deneme = "deneme">
-    <cffunction  name="calcFunc" returntype="numeric" access="public">
-        <cfargument  name="num1" type="numeric" required="true">
-        <cfargument  name="num2" type="numeric" required="true">
-        <cfreturn num1*num2>
-    </cffunction>
 
     <cffunction  name="getRoute" returntype="string" access="public">
         <cfargument  name="route" type="string" required="true">

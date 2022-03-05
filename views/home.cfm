@@ -106,7 +106,7 @@
                                             </cfif>
                                         </cfloop>
                                     </td>
-                                    <td><a href="?route=edit&animalID=#animals.AnimalsID#"><button type="button" class="btn btn-primary btn-sm">✓</button></a></td>
+                                    <td><a href="?route=edit&feedID=#feeds.FeedsID#"><button type="button" class="btn btn-primary btn-sm">✓</button></a></td>
                                     <cfset index+=1>
                                 </tr>
                             </cfoutput>
